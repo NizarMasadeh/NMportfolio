@@ -1205,7 +1205,7 @@ body.active {
    */
 
   .footer-bottom {
-    padding-block-end: 40px;
+    padding-block-end: 120px;
   }
 
   .footer-bottom .container {
@@ -1565,7 +1565,7 @@ body.active {
    */
 
   .portfolio {
-    padding-block-end: 150px;
+    padding-block-end: 50px;
     margin-block-end: 60px;
   }
 
@@ -1865,7 +1865,7 @@ body.active {
    */
 
   .footer-top {
-    padding-block: 300px;
+    padding-block: 10px;
   }
 
   .footer-top .section-title {
@@ -2463,7 +2463,8 @@ figure {
 }
 
 .sent .contact-button {
-  background-color: rgb(131 131 131 / 76%)
+  background-color: rgb(131 131 131 / 76%);
+
 }
 
 .sent .contact-envelope {
