@@ -215,6 +215,10 @@ body.active {
   font-size: var(--fs-2);
 }
 
+.h2.section-title {
+  font-size: 60px;
+}
+
 .h3 {
   font-size: var(--fs-3);
 }
@@ -1325,10 +1329,10 @@ body.active {
 
   }
 
-  .shape {
+  /* .shape {
     width: 50px;
     height: 50px;
-  }
+  } */
 
 
   /**
@@ -2364,20 +2368,20 @@ figure {
 
 .contact-side {
   height: 12rem;
-  background-color: #313131;
+  background-color: #020100;
   outline: 1px solid transparent;
 }
 
 .contact-side-left {
   padding: 2rem 2rem 0;
   border-radius: 1rem 1rem 0 0;
-  box-shadow: inset 0 0.75rem 2rem rgba(229, 225, 187, 0.5);
+  box-shadow: inset 0 0.75rem 2rem rgba(24, 24, 24, 0.5);
 }
 
 .contact-side-right {
   padding: 2rem;
   border-radius: 0 0 1rem 1rem;
-  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.05), inset 0 -0.57rem 2rem rgba(229, 225, 187, 0.5);
+  box-shadow: inset 0 0.75rem 2rem rgba(24, 24, 24, 0.5);
   text-align: right;
 }
 
@@ -2404,7 +2408,7 @@ figure {
   display: block;
   width: 12rem;
   height: 6rem;
-  background-color: #745900;
+  background-color: #ffffff;
   transform: rotate(30deg);
   transform-origin: 0 0;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
@@ -2431,7 +2435,7 @@ figure {
   display: block;
   width: 10rem;
   height: 10rem;
-  background-color: #645400;
+  background-color: #ffffff;
   border-radius: 1rem;
   content: '';
   transform: scaleY(0.6) rotate(45deg);
@@ -2463,7 +2467,7 @@ figure {
 }
 
 .sent .contact-button {
-  background-color: rgb(131 131 131 / 76%);
+  background-color: rgba(255, 255, 255, 0.76);
 
 }
 
